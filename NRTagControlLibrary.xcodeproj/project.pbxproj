@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1965D6AE216222C000840756 /* NRTagControlLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1965D6AD216222C000840756 /* NRTagControlLibraryTests.swift */; };
+		1965D6BC216222D300840756 /* NRTagControlLibraryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1965D6BB216222D300840756 /* NRTagControlLibraryUITests.swift */; };
+		19C656CD1FDFDB3700ABDD54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C656CC1FDFDB3700ABDD54 /* AppDelegate.swift */; };
+		19C656CF1FDFDB3700ABDD54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C656CE1FDFDB3700ABDD54 /* ViewController.swift */; };
+		19C656D21FDFDB3700ABDD54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19C656D01FDFDB3700ABDD54 /* Main.storyboard */; };
+		19C656D41FDFDB3700ABDD54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19C656D31FDFDB3700ABDD54 /* Assets.xcassets */; };
+		19C656D71FDFDB3700ABDD54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19C656D51FDFDB3700ABDD54 /* LaunchScreen.storyboard */; };
+		19E88102204E558100B3E514 /* TagModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E88101204E558100B3E514 /* TagModel.swift */; };
+		19E88104204E563600B3E514 /* NRTagsControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E88103204E563600B3E514 /* NRTagsControl.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1965D6B0216222C000840756 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19C656C11FDFDB3700ABDD54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19C656C81FDFDB3700ABDD54;
+			remoteInfo = NRTagControlLibrary;
+		};
+		1965D6BE216222D300840756 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19C656C11FDFDB3700ABDD54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19C656C81FDFDB3700ABDD54;
+			remoteInfo = NRTagControlLibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1965D6AB216222C000840756 /* NRTagControlLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NRTagControlLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1965D6AD216222C000840756 /* NRTagControlLibraryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NRTagControlLibraryTests.swift; sourceTree = "<group>"; };
+		1965D6AF216222C000840756 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1965D6B9216222D300840756 /* NRTagControlLibraryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NRTagControlLibraryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1965D6BB216222D300840756 /* NRTagControlLibraryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NRTagControlLibraryUITests.swift; sourceTree = "<group>"; };
+		1965D6BD216222D300840756 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19C656C91FDFDB3700ABDD54 /* NRTagControlLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NRTagControlLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19C656CC1FDFDB3700ABDD54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		19C656CE1FDFDB3700ABDD54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		19C656D11FDFDB3700ABDD54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19C656D31FDFDB3700ABDD54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19C656D61FDFDB3700ABDD54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19C656D81FDFDB3700ABDD54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19E88101204E558100B3E514 /* TagModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagModel.swift; sourceTree = "<group>"; };
+		19E88103204E563600B3E514 /* NRTagsControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRTagsControl.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1965D6A8216222C000840756 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1965D6B6216222D300840756 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19C656C61FDFDB3700ABDD54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1965D6AC216222C000840756 /* NRTagControlLibraryTests */ = {
+			isa = PBXGroup;
+			children = (
+				1965D6AD216222C000840756 /* NRTagControlLibraryTests.swift */,
+				1965D6AF216222C000840756 /* Info.plist */,
+			);
+			path = NRTagControlLibraryTests;
+			sourceTree = "<group>";
+		};
+		1965D6BA216222D300840756 /* NRTagControlLibraryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1965D6BB216222D300840756 /* NRTagControlLibraryUITests.swift */,
+				1965D6BD216222D300840756 /* Info.plist */,
+			);
+			path = NRTagControlLibraryUITests;
+			sourceTree = "<group>";
+		};
+		19C656C01FDFDB3700ABDD54 = {
+			isa = PBXGroup;
+			children = (
+				19C656CB1FDFDB3700ABDD54 /* NRTagControlLibrary */,
+				1965D6AC216222C000840756 /* NRTagControlLibraryTests */,
+				1965D6BA216222D300840756 /* NRTagControlLibraryUITests */,
+				19C656CA1FDFDB3700ABDD54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19C656CA1FDFDB3700ABDD54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19C656C91FDFDB3700ABDD54 /* NRTagControlLibrary.app */,
+				1965D6AB216222C000840756 /* NRTagControlLibraryTests.xctest */,
+				1965D6B9216222D300840756 /* NRTagControlLibraryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19C656CB1FDFDB3700ABDD54 /* NRTagControlLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				19C656CC1FDFDB3700ABDD54 /* AppDelegate.swift */,
+				19C656CE1FDFDB3700ABDD54 /* ViewController.swift */,
+				19C656D01FDFDB3700ABDD54 /* Main.storyboard */,
+				19C656D31FDFDB3700ABDD54 /* Assets.xcassets */,
+				19C656D51FDFDB3700ABDD54 /* LaunchScreen.storyboard */,
+				19C656D81FDFDB3700ABDD54 /* Info.plist */,
+				19E88103204E563600B3E514 /* NRTagsControl.swift */,
+				19E88101204E558100B3E514 /* TagModel.swift */,
+			);
+			path = NRTagControlLibrary;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1965D6AA216222C000840756 /* NRTagControlLibraryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1965D6B2216222C000840756 /* Build configuration list for PBXNativeTarget "NRTagControlLibraryTests" */;
+			buildPhases = (
+				1965D6A7216222C000840756 /* Sources */,
+				1965D6A8216222C000840756 /* Frameworks */,
+				1965D6A9216222C000840756 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1965D6B1216222C000840756 /* PBXTargetDependency */,
+			);
+			name = NRTagControlLibraryTests;
+			productName = NRTagControlLibraryTests;
+			productReference = 1965D6AB216222C000840756 /* NRTagControlLibraryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1965D6B8216222D300840756 /* NRTagControlLibraryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1965D6C0216222D300840756 /* Build configuration list for PBXNativeTarget "NRTagControlLibraryUITests" */;
+			buildPhases = (
+				1965D6B5216222D300840756 /* Sources */,
+				1965D6B6216222D300840756 /* Frameworks */,
+				1965D6B7216222D300840756 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1965D6BF216222D300840756 /* PBXTargetDependency */,
+			);
+			name = NRTagControlLibraryUITests;
+			productName = NRTagControlLibraryUITests;
+			productReference = 1965D6B9216222D300840756 /* NRTagControlLibraryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		19C656C81FDFDB3700ABDD54 /* NRTagControlLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19C656F11FDFDB3700ABDD54 /* Build configuration list for PBXNativeTarget "NRTagControlLibrary" */;
+			buildPhases = (
+				19C656C51FDFDB3700ABDD54 /* Sources */,
+				19C656C61FDFDB3700ABDD54 /* Frameworks */,
+				19C656C71FDFDB3700ABDD54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NRTagControlLibrary;
+			productName = NRTagControlLibrary;
+			productReference = 19C656C91FDFDB3700ABDD54 /* NRTagControlLibrary.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19C656C11FDFDB3700ABDD54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Bhumika Goyal";
+				TargetAttributes = {
+					1965D6AA216222C000840756 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 19C656C81FDFDB3700ABDD54;
+					};
+					1965D6B8216222D300840756 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 19C656C81FDFDB3700ABDD54;
+					};
+					19C656C81FDFDB3700ABDD54 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 19C656C41FDFDB3700ABDD54 /* Build configuration list for PBXProject "NRTagControlLibrary" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19C656C01FDFDB3700ABDD54;
+			productRefGroup = 19C656CA1FDFDB3700ABDD54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19C656C81FDFDB3700ABDD54 /* NRTagControlLibrary */,
+				1965D6AA216222C000840756 /* NRTagControlLibraryTests */,
+				1965D6B8216222D300840756 /* NRTagControlLibraryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1965D6A9216222C000840756 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1965D6B7216222D300840756 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19C656C71FDFDB3700ABDD54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19C656D71FDFDB3700ABDD54 /* LaunchScreen.storyboard in Resources */,
+				19C656D41FDFDB3700ABDD54 /* Assets.xcassets in Resources */,
+				19C656D21FDFDB3700ABDD54 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1965D6A7216222C000840756 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1965D6AE216222C000840756 /* NRTagControlLibraryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1965D6B5216222D300840756 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1965D6BC216222D300840756 /* NRTagControlLibraryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19C656C51FDFDB3700ABDD54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E88102204E558100B3E514 /* TagModel.swift in Sources */,
+				19C656CF1FDFDB3700ABDD54 /* ViewController.swift in Sources */,
+				19E88104204E563600B3E514 /* NRTagsControl.swift in Sources */,
+				19C656CD1FDFDB3700ABDD54 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1965D6B1216222C000840756 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19C656C81FDFDB3700ABDD54 /* NRTagControlLibrary */;
+			targetProxy = 1965D6B0216222C000840756 /* PBXContainerItemProxy */;
+		};
+		1965D6BF216222D300840756 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19C656C81FDFDB3700ABDD54 /* NRTagControlLibrary */;
+			targetProxy = 1965D6BE216222D300840756 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19C656D01FDFDB3700ABDD54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19C656D11FDFDB3700ABDD54 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19C656D51FDFDB3700ABDD54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19C656D61FDFDB3700ABDD54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1965D6B3216222C000840756 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z3QQ492P6Z;
+				ENABLE_TESTABILITY = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				INFOPLIST_FILE = NRTagControlLibraryTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = InfoEdge.NRTagControlLibraryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NRTagControlLibrary.app/NRTagControlLibrary";
+			};
+			name = Debug;
+		};
+		1965D6B4216222C000840756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z3QQ492P6Z;
+				ENABLE_TESTABILITY = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				INFOPLIST_FILE = NRTagControlLibraryTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = InfoEdge.NRTagControlLibraryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NRTagControlLibrary.app/NRTagControlLibrary";
+			};
+			name = Release;
+		};
+		1965D6C1216222D300840756 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z3QQ492P6Z;
+				INFOPLIST_FILE = NRTagControlLibraryUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = InfoEdge.NRTagControlLibraryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NRTagControlLibrary;
+			};
+			name = Debug;
+		};
+		1965D6C2216222D300840756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z3QQ492P6Z;
+				INFOPLIST_FILE = NRTagControlLibraryUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = InfoEdge.NRTagControlLibraryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NRTagControlLibrary;
+			};
+			name = Release;
+		};
+		19C656EF1FDFDB3700ABDD54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		19C656F01FDFDB3700ABDD54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19C656F21FDFDB3700ABDD54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z3QQ492P6Z;
+				INFOPLIST_FILE = NRTagControlLibrary/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = InfoEdge.NRTagControlLibrary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19C656F31FDFDB3700ABDD54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z3QQ492P6Z;
+				INFOPLIST_FILE = NRTagControlLibrary/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = InfoEdge.NRTagControlLibrary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1965D6B2216222C000840756 /* Build configuration list for PBXNativeTarget "NRTagControlLibraryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1965D6B3216222C000840756 /* Debug */,
+				1965D6B4216222C000840756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1965D6C0216222D300840756 /* Build configuration list for PBXNativeTarget "NRTagControlLibraryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1965D6C1216222D300840756 /* Debug */,
+				1965D6C2216222D300840756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19C656C41FDFDB3700ABDD54 /* Build configuration list for PBXProject "NRTagControlLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19C656EF1FDFDB3700ABDD54 /* Debug */,
+				19C656F01FDFDB3700ABDD54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19C656F11FDFDB3700ABDD54 /* Build configuration list for PBXNativeTarget "NRTagControlLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19C656F21FDFDB3700ABDD54 /* Debug */,
+				19C656F31FDFDB3700ABDD54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19C656C11FDFDB3700ABDD54 /* Project object */;
+}
