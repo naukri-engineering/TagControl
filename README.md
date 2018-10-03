@@ -5,7 +5,7 @@ You are able to easily setup different colors for control elements and set diffe
 
 #### Tags will look like:
 
-![NRTagsControl](http://gitlab.infoedge.com/naukriindia/iOS-Libraries/blob/master/NRTagControlLibrary/video.gif)
+![NRTagsControl](https://github.com/naukri-engineering/TagControl/blob/master/video.gif)
 
 
 #### Follow the steps to create tags using NRTagsControl:
