@@ -44,3 +44,7 @@ func tagControl(arrayModel: [TagModel]) {
 print(arrayModel);
 }
 ```
+### License
+***
+Please see [LICENSE.md](LICENSE.md) for details
+
